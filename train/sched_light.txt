@@ -1,0 +1,479 @@
+kworker/u32:2-16134   [012] d....  4211.978034: sched_stat_runtime: comm=kworker/u32:2 pid=16134 runtime=20600 [ns] vruntime=66133075665 [ns]
+   kworker/u32:2-16134   [012] d....  4211.978035: sched_switch: prev_comm=kworker/u32:2 prev_pid=16134 prev_prio=120 prev_state=I ==> next_comm=swapper/12 next_pid=0 next_prio=120
+          <idle>-0       [003] dNh..  4211.978049: sched_wakeup: comm=sudo pid=17659 prio=120 target_cpu=003
+          <idle>-0       [003] d....  4211.978053: sched_switch: prev_comm=swapper/3 prev_pid=0 prev_prio=120 prev_state=R ==> next_comm=sudo next_pid=17659 next_prio=120
+          <idle>-0       [000] d.s..  4211.978071: sched_waking: comm=Relay(17547) pid=17959 prio=120 target_cpu=005
+            sudo-17659   [003] d....  4211.978076: sched_waking: comm=kworker/u32:2 pid=16134 prio=120 target_cpu=012
+          <idle>-0       [005] dNh..  4211.978090: sched_wakeup: comm=Relay(17547) pid=17959 prio=120 target_cpu=005
+          <idle>-0       [005] d....  4211.978092: sched_switch: prev_comm=swapper/5 prev_pid=0 prev_prio=120 prev_state=R ==> next_comm=Relay(17547) next_pid=17959 next_prio=120
+            sudo-17659   [003] d....  4211.978093: sched_stat_runtime: comm=sudo pid=17659 runtime=44900 [ns] vruntime=34034515171 [ns]
+            sudo-17659   [003] d....  4211.978094: sched_switch: prev_comm=sudo prev_pid=17659 prev_prio=120 prev_state=S ==> next_comm=swapper/3 next_pid=0 next_prio=120
+          <idle>-0       [012] dNh..  4211.978096: sched_wakeup: comm=kworker/u32:2 pid=16134 prio=120 target_cpu=012
+          <idle>-0       [012] d....  4211.978100: sched_switch: prev_comm=swapper/12 prev_pid=0 prev_prio=120 prev_state=R ==> next_comm=kworker/u32:2 next_pid=16134 next_prio=120
+    Relay(17547)-17959   [005] d....  4211.978101: sched_waking: comm=kworker/u32:0 pid=18639 prio=120 target_cpu=006
+   kworker/u32:2-16134   [012] d....  4211.978102: sched_waking: comm=bash pid=17687 prio=120 target_cpu=010
+    Relay(17547)-17959   [005] d....  4211.978114: sched_waking: comm=sudo pid=18071 prio=120 target_cpu=002
+   kworker/u32:2-16134   [012] d....  4211.978116: sched_stat_runtime: comm=kworker/u32:2 pid=16134 runtime=20500 [ns] vruntime=66133096165 [ns]
+   kworker/u32:2-16134   [012] d....  4211.978117: sched_switch: prev_comm=kworker/u32:2 prev_pid=16134 prev_prio=120 prev_state=I ==> next_comm=swapper/12 next_pid=0 next_prio=120
+    Relay(17547)-17959   [005] d....  4211.978124: sched_stat_runtime: comm=Relay(17547) pid=17959 runtime=34500 [ns] vruntime=26203579242 [ns]
+    Relay(17547)-17959   [005] d....  4211.978124: sched_switch: prev_comm=Relay(17547) prev_pid=17959 prev_prio=120 prev_state=S ==> next_comm=swapper/5 next_pid=0 next_prio=120
+          <idle>-0       [010] dNh..  4211.978125: sched_wakeup: comm=bash pid=17687 prio=120 target_cpu=010
+          <idle>-0       [010] d....  4211.978128: sched_switch: prev_comm=swapper/10 prev_pid=0 prev_prio=120 prev_state=R ==> next_comm=bash next_pid=17687 next_prio=120
+          <idle>-0       [002] dNh..  4211.978136: sched_wakeup: comm=sudo pid=18071 prio=120 target_cpu=002
+          <idle>-0       [002] d....  4211.978139: sched_switch: prev_comm=swapper/2 prev_pid=0 prev_prio=120 prev_state=R ==> next_comm=sudo next_pid=18071 next_prio=120
+            sudo-18071   [002] d....  4211.978145: sched_waking: comm=kworker/u32:2 pid=16134 prio=120 target_cpu=012
+          <idle>-0       [006] dNh..  4211.978147: sched_wakeup: comm=kworker/u32:0 pid=18639 prio=120 target_cpu=006
+          <idle>-0       [006] d....  4211.978151: sched_switch: prev_comm=swapper/6 prev_pid=0 prev_prio=120 prev_state=R ==> next_comm=kworker/u32:0 next_pid=18639 next_prio=120
+   kworker/u32:0-18639   [006] d....  4211.978161: sched_waking: comm=sudo pid=17659 prio=120 target_cpu=003
+            sudo-18071   [002] d....  4211.978163: sched_stat_runtime: comm=sudo pid=18071 runtime=27300 [ns] vruntime=81059324447 [ns]
+            sudo-18071   [002] d....  4211.978163: sched_switch: prev_comm=sudo prev_pid=18071 prev_prio=120 prev_state=S ==> next_comm=swapper/2 next_pid=0 next_prio=120
+          <idle>-0       [012] dNh..  4211.978165: sched_wakeup: comm=kworker/u32:2 pid=16134 prio=120 target_cpu=012
+          <idle>-0       [012] d....  4211.978168: sched_switch: prev_comm=swapper/12 prev_pid=0 prev_prio=120 prev_state=R ==> next_comm=kworker/u32:2 next_pid=16134 next_prio=120
+   kworker/u32:2-16134   [012] d....  4211.978169: sched_waking: comm=kworker/u32:1 pid=19010 prio=120 target_cpu=011
+   kworker/u32:2-16134   [012] d....  4211.978182: sched_stat_runtime: comm=kworker/u32:2 pid=16134 runtime=17200 [ns] vruntime=66133113365 [ns]
+   kworker/u32:2-16134   [012] d....  4211.978182: sched_switch: prev_comm=kworker/u32:2 prev_pid=16134 prev_prio=120 prev_state=I ==> next_comm=swapper/12 next_pid=0 next_prio=120
+   kworker/u32:0-18639   [006] d....  4211.978184: sched_stat_runtime: comm=kworker/u32:0 pid=18639 runtime=37700 [ns] vruntime=64176617254 [ns]
+   kworker/u32:0-18639   [006] d....  4211.978185: sched_switch: prev_comm=kworker/u32:0 prev_pid=18639 prev_prio=120 prev_state=I ==> next_comm=swapper/6 next_pid=0 next_prio=120
+          <idle>-0       [003] dNh..  4211.978190: sched_wakeup: comm=sudo pid=17659 prio=120 target_cpu=003
+          <idle>-0       [011] dNh..  4211.978192: sched_wakeup: comm=kworker/u32:1 pid=19010 prio=120 target_cpu=011
+          <idle>-0       [003] d....  4211.978193: sched_switch: prev_comm=swapper/3 prev_pid=0 prev_prio=120 prev_state=R ==> next_comm=sudo next_pid=17659 next_prio=120
+          <idle>-0       [011] d....  4211.978195: sched_switch: prev_comm=swapper/11 prev_pid=0 prev_prio=120 prev_state=R ==> next_comm=kworker/u32:1 next_pid=19010 next_prio=120
+   kworker/u32:1-19010   [011] d....  4211.978196: sched_stat_runtime: comm=kworker/u32:1 pid=19010 runtime=5800 [ns] vruntime=239908860891 [ns]
+   kworker/u32:1-19010   [011] d....  4211.978197: sched_switch: prev_comm=kworker/u32:1 prev_pid=19010 prev_prio=120 prev_state=I ==> next_comm=swapper/11 next_pid=0 next_prio=120
+            sudo-17659   [003] d....  4211.978203: sched_waking: comm=kworker/u32:1 pid=19010 prio=120 target_cpu=011
+            sudo-17659   [003] d....  4211.978221: sched_stat_runtime: comm=sudo pid=17659 runtime=30300 [ns] vruntime=34034545471 [ns]
+            sudo-17659   [003] d....  4211.978224: sched_switch: prev_comm=sudo prev_pid=17659 prev_prio=120 prev_state=S ==> next_comm=swapper/3 next_pid=0 next_prio=120
+          <idle>-0       [011] dNh..  4211.978232: sched_wakeup: comm=kworker/u32:1 pid=19010 prio=120 target_cpu=011
+          <idle>-0       [011] d....  4211.978238: sched_switch: prev_comm=swapper/11 prev_pid=0 prev_prio=120 prev_state=R ==> next_comm=kworker/u32:1 next_pid=19010 next_prio=120
+   kworker/u32:1-19010   [011] d....  4211.978241: sched_waking: comm=Relay(17115) pid=17508 prio=120 target_cpu=000
+   kworker/u32:1-19010   [011] d....  4211.978250: sched_stat_runtime: comm=kworker/u32:1 pid=19010 runtime=18500 [ns] vruntime=239908879391 [ns]
+   kworker/u32:1-19010   [011] d....  4211.978250: sched_switch: prev_comm=kworker/u32:1 prev_pid=19010 prev_prio=120 prev_state=I ==> next_comm=swapper/11 next_pid=0 next_prio=120
+          <idle>-0       [000] dNh..  4211.978255: sched_wakeup: comm=Relay(17115) pid=17508 prio=120 target_cpu=000
+          <idle>-0       [000] d....  4211.978257: sched_switch: prev_comm=swapper/0 prev_pid=0 prev_prio=120 prev_state=R ==> next_comm=Relay(17115) next_pid=17508 next_prio=120
+    Relay(17115)-17508   [000] d....  4211.978274: sched_stat_runtime: comm=Relay(17115) pid=17508 runtime=19600 [ns] vruntime=141980757993 [ns]
+    Relay(17115)-17508   [000] d....  4211.978275: sched_switch: prev_comm=Relay(17115) prev_pid=17508 prev_prio=120 prev_state=S ==> next_comm=swapper/0 next_pid=0 next_prio=120
+          <idle>-0       [000] d.s..  4211.978975: sched_waking: comm=Relay(17547) pid=17959 prio=120 target_cpu=005
+          <idle>-0       [005] dNh..  4211.978998: sched_wakeup: comm=Relay(17547) pid=17959 prio=120 target_cpu=005
+          <idle>-0       [005] d....  4211.979000: sched_switch: prev_comm=swapper/5 prev_pid=0 prev_prio=120 prev_state=R ==> next_comm=Relay(17547) next_pid=17959 next_prio=120
+    Relay(17547)-17959   [005] d....  4211.979010: sched_waking: comm=kworker/u32:1 pid=19010 prio=120 target_cpu=011
+    Relay(17547)-17959   [005] d....  4211.979011: sched_waking: comm=sudo pid=18071 prio=120 target_cpu=002
+    Relay(17547)-17959   [005] d....  4211.979012: sched_stat_runtime: comm=Relay(17547) pid=17959 runtime=15300 [ns] vruntime=26203594542 [ns]
+    Relay(17547)-17959   [005] d....  4211.979013: sched_switch: prev_comm=Relay(17547) prev_pid=17959 prev_prio=120 prev_state=S ==> next_comm=swapper/5 next_pid=0 next_prio=120
+          <idle>-0       [002] dNh..  4211.979023: sched_wakeup: comm=sudo pid=18071 prio=120 target_cpu=002
+          <idle>-0       [002] d....  4211.979026: sched_switch: prev_comm=swapper/2 prev_pid=0 prev_prio=120 prev_state=R ==> next_comm=sudo next_pid=18071 next_prio=120
+            sudo-18071   [002] d....  4211.979028: sched_stat_runtime: comm=sudo pid=18071 runtime=6000 [ns] vruntime=81059330447 [ns]
+            sudo-18071   [002] d....  4211.979029: sched_switch: prev_comm=sudo prev_pid=18071 prev_prio=120 prev_state=S ==> next_comm=swapper/2 next_pid=0 next_prio=120
+          <idle>-0       [011] dNh..  4211.979034: sched_wakeup: comm=kworker/u32:1 pid=19010 prio=120 target_cpu=011
+          <idle>-0       [011] d....  4211.979038: sched_switch: prev_comm=swapper/11 prev_pid=0 prev_prio=120 prev_state=R ==> next_comm=kworker/u32:1 next_pid=19010 next_prio=120
+   kworker/u32:1-19010   [011] d....  4211.979045: sched_stat_runtime: comm=kworker/u32:1 pid=19010 runtime=12300 [ns] vruntime=239908891691 [ns]
+   kworker/u32:1-19010   [011] d....  4211.979046: sched_switch: prev_comm=kworker/u32:1 prev_pid=19010 prev_prio=120 prev_state=I ==> next_comm=swapper/11 next_pid=0 next_prio=120
+          <idle>-0       [008] d.h..  4211.979194: sched_waking: comm=snapd pid=581 prio=120 target_cpu=008
+          <idle>-0       [008] dNh..  4211.979196: sched_wakeup: comm=snapd pid=581 prio=120 target_cpu=008
+          <idle>-0       [008] d....  4211.979202: sched_switch: prev_comm=swapper/8 prev_pid=0 prev_prio=120 prev_state=R ==> next_comm=snapd next_pid=581 next_prio=120
+           snapd-581     [008] d....  4211.979210: sched_stat_runtime: comm=snapd pid=581 runtime=14400 [ns] vruntime=120490493382 [ns]
+           snapd-581     [008] d....  4211.979211: sched_switch: prev_comm=snapd prev_pid=581 prev_prio=120 prev_state=S ==> next_comm=swapper/8 next_pid=0 next_prio=120
+          <idle>-0       [000] d.s..  4211.979975: sched_waking: comm=Relay(17547) pid=17959 prio=120 target_cpu=005
+          <idle>-0       [005] dNh..  4211.980002: sched_wakeup: comm=Relay(17547) pid=17959 prio=120 target_cpu=005
+          <idle>-0       [005] d....  4211.980004: sched_switch: prev_comm=swapper/5 prev_pid=0 prev_prio=120 prev_state=R ==> next_comm=Relay(17547) next_pid=17959 next_prio=120
+    Relay(17547)-17959   [005] d....  4211.980014: sched_waking: comm=kworker/u32:1 pid=19010 prio=120 target_cpu=011
+    Relay(17547)-17959   [005] d....  4211.980029: sched_waking: comm=sudo pid=18071 prio=120 target_cpu=002
+    Relay(17547)-17959   [005] d....  4211.980031: sched_stat_runtime: comm=Relay(17547) pid=17959 runtime=30400 [ns] vruntime=26203624942 [ns]
+    Relay(17547)-17959   [005] d....  4211.980032: sched_switch: prev_comm=Relay(17547) prev_pid=17959 prev_prio=120 prev_state=S ==> next_comm=swapper/5 next_pid=0 next_prio=120
+          <idle>-0       [011] dNh..  4211.980033: sched_wakeup: comm=kworker/u32:1 pid=19010 prio=120 target_cpu=011
+          <idle>-0       [011] d....  4211.980036: sched_switch: prev_comm=swapper/11 prev_pid=0 prev_prio=120 prev_state=R ==> next_comm=kworker/u32:1 next_pid=19010 next_prio=120
+   kworker/u32:1-19010   [011] d....  4211.980038: sched_stat_runtime: comm=kworker/u32:1 pid=19010 runtime=5300 [ns] vruntime=239908896991 [ns]
+   kworker/u32:1-19010   [011] d....  4211.980038: sched_switch: prev_comm=kworker/u32:1 prev_pid=19010 prev_prio=120 prev_state=I ==> next_comm=swapper/11 next_pid=0 next_prio=120
+          <idle>-0       [002] dNh..  4211.980045: sched_wakeup: comm=sudo pid=18071 prio=120 target_cpu=002
+          <idle>-0       [002] d....  4211.980047: sched_switch: prev_comm=swapper/2 prev_pid=0 prev_prio=120 prev_state=R ==> next_comm=sudo next_pid=18071 next_prio=120
+            sudo-18071   [002] d....  4211.980053: sched_waking: comm=kworker/u32:1 pid=19010 prio=120 target_cpu=011
+            sudo-18071   [002] d....  4211.980068: sched_stat_runtime: comm=sudo pid=18071 runtime=23700 [ns] vruntime=81059354147 [ns]
+          <idle>-0       [011] dNh..  4211.980068: sched_wakeup: comm=kworker/u32:1 pid=19010 prio=120 target_cpu=011
+            sudo-18071   [002] d....  4211.980069: sched_switch: prev_comm=sudo prev_pid=18071 prev_prio=120 prev_state=S ==> next_comm=swapper/2 next_pid=0 next_prio=120
+          <idle>-0       [011] d....  4211.980070: sched_switch: prev_comm=swapper/11 prev_pid=0 prev_prio=120 prev_state=R ==> next_comm=kworker/u32:1 next_pid=19010 next_prio=120
+   kworker/u32:1-19010   [011] d....  4211.980071: sched_stat_runtime: comm=kworker/u32:1 pid=19010 runtime=2500 [ns] vruntime=239908899491 [ns]
+   kworker/u32:1-19010   [011] d....  4211.980071: sched_switch: prev_comm=kworker/u32:1 prev_pid=19010 prev_prio=120 prev_state=I ==> next_comm=swapper/11 next_pid=0 next_prio=120
+          <idle>-0       [000] d.s..  4211.980921: sched_waking: comm=Relay(17547) pid=17959 prio=120 target_cpu=005
+          <idle>-0       [005] dNh..  4211.980925: sched_wakeup: comm=Relay(17547) pid=17959 prio=120 target_cpu=005
+          <idle>-0       [005] d....  4211.980927: sched_switch: prev_comm=swapper/5 prev_pid=0 prev_prio=120 prev_state=R ==> next_comm=Relay(17547) next_pid=17959 next_prio=120
+    Relay(17547)-17959   [005] d....  4211.980939: sched_waking: comm=kworker/u32:1 pid=19010 prio=120 target_cpu=011
+    Relay(17547)-17959   [005] d....  4211.980953: sched_waking: comm=sudo pid=18071 prio=120 target_cpu=002
+    Relay(17547)-17959   [005] d....  4211.980956: sched_switch: prev_comm=Relay(17547) prev_pid=17959 prev_prio=120 prev_state=S ==> next_comm=swapper/5 next_pid=0 next_prio=120
+          <idle>-0       [011] dNh..  4211.980956: sched_wakeup: comm=kworker/u32:1 pid=19010 prio=120 target_cpu=011
+          <idle>-0       [011] d....  4211.980959: sched_switch: prev_comm=swapper/11 prev_pid=0 prev_prio=120 prev_state=R ==> next_comm=kworker/u32:1 next_pid=19010 next_prio=120
+   kworker/u32:1-19010   [011] d....  4211.980962: sched_switch: prev_comm=kworker/u32:1 prev_pid=19010 prev_prio=120 prev_state=I ==> next_comm=swapper/11 next_pid=0 next_prio=120
+          <idle>-0       [002] dNh..  4211.980971: sched_wakeup: comm=sudo pid=18071 prio=120 target_cpu=002
+          <idle>-0       [002] d....  4211.980973: sched_switch: prev_comm=swapper/2 prev_pid=0 prev_prio=120 prev_state=R ==> next_comm=sudo next_pid=18071 next_prio=120
+            sudo-18071   [002] d....  4211.980978: sched_waking: comm=kworker/u32:1 pid=19010 prio=120 target_cpu=011
+            sudo-18071   [002] d....  4211.980994: sched_switch: prev_comm=sudo prev_pid=18071 prev_prio=120 prev_state=S ==> next_comm=swapper/2 next_pid=0 next_prio=120
+          <idle>-0       [011] dNh..  4211.980996: sched_wakeup: comm=kworker/u32:1 pid=19010 prio=120 target_cpu=011
+          <idle>-0       [011] d....  4211.980998: sched_switch: prev_comm=swapper/11 prev_pid=0 prev_prio=120 prev_state=R ==> next_comm=kworker/u32:1 next_pid=19010 next_prio=120
+   kworker/u32:1-19010   [011] d....  4211.981000: sched_switch: prev_comm=kworker/u32:1 prev_pid=19010 prev_prio=120 prev_state=I ==> next_comm=swapper/11 next_pid=0 next_prio=120
+          <idle>-0       [000] d.s..  4211.981934: sched_waking: comm=Relay(17547) pid=17959 prio=120 target_cpu=005
+          <idle>-0       [005] dNh..  4211.981939: sched_wakeup: comm=Relay(17547) pid=17959 prio=120 target_cpu=005
+          <idle>-0       [005] d....  4211.981942: sched_switch: prev_comm=swapper/5 prev_pid=0 prev_prio=120 prev_state=R ==> next_comm=Relay(17547) next_pid=17959 next_prio=120
+    Relay(17547)-17959   [005] d....  4211.981950: sched_waking: comm=kworker/u32:1 pid=19010 prio=120 target_cpu=011
+    Relay(17547)-17959   [005] d....  4211.981951: sched_waking: comm=sudo pid=18071 prio=120 target_cpu=002
+          <idle>-0       [011] dNh..  4211.981954: sched_wakeup: comm=kworker/u32:1 pid=19010 prio=120 target_cpu=011
+          <idle>-0       [011] d....  4211.981958: sched_switch: prev_comm=swapper/11 prev_pid=0 prev_prio=120 prev_state=R ==> next_comm=kworker/u32:1 next_pid=19010 next_prio=120
+   kworker/u32:1-19010   [011] d....  4211.981963: sched_switch: prev_comm=kworker/u32:1 prev_pid=19010 prev_prio=120 prev_state=I ==> next_comm=swapper/11 next_pid=0 next_prio=120
+    Relay(17547)-17959   [005] d....  4211.981967: sched_switch: prev_comm=Relay(17547) prev_pid=17959 prev_prio=120 prev_state=S ==> next_comm=swapper/5 next_pid=0 next_prio=120
+          <idle>-0       [002] dNh..  4211.981967: sched_wakeup: comm=sudo pid=18071 prio=120 target_cpu=002
+          <idle>-0       [002] d....  4211.981970: sched_switch: prev_comm=swapper/2 prev_pid=0 prev_prio=120 prev_state=R ==> next_comm=sudo next_pid=18071 next_prio=120
+            sudo-18071   [002] d....  4211.981977: sched_waking: comm=kworker/u32:1 pid=19010 prio=120 target_cpu=011
+            sudo-18071   [002] d....  4211.981994: sched_switch: prev_comm=sudo prev_pid=18071 prev_prio=120 prev_state=S ==> next_comm=swapper/2 next_pid=0 next_prio=120
+          <idle>-0       [011] dNh..  4211.981997: sched_wakeup: comm=kworker/u32:1 pid=19010 prio=120 target_cpu=011
+          <idle>-0       [011] d....  4211.982001: sched_switch: prev_comm=swapper/11 prev_pid=0 prev_prio=120 prev_state=R ==> next_comm=kworker/u32:1 next_pid=19010 next_prio=120
+   kworker/u32:1-19010   [011] d....  4211.982004: sched_switch: prev_comm=kworker/u32:1 prev_pid=19010 prev_prio=120 prev_state=I ==> next_comm=swapper/11 next_pid=0 next_prio=120
+            bash-17687   [010] d.s..  4211.982203: sched_waking: comm=rcu_sched pid=14 prio=120 target_cpu=010
+            bash-17687   [010] d.s..  4211.982204: sched_migrate_task: comm=rcu_sched pid=14 prio=120 orig_cpu=10 dest_cpu=12
+          <idle>-0       [012] dNh..  4211.982222: sched_wakeup: comm=rcu_sched pid=14 prio=120 target_cpu=012
+          <idle>-0       [012] d....  4211.982225: sched_switch: prev_comm=swapper/12 prev_pid=0 prev_prio=120 prev_state=R ==> next_comm=rcu_sched next_pid=14 next_prio=120
+       rcu_sched-14      [012] d....  4211.982226: sched_switch: prev_comm=rcu_sched prev_pid=14 prev_prio=120 prev_state=I ==> next_comm=swapper/12 next_pid=0 next_prio=120
+          <idle>-0       [000] d.s..  4211.982910: sched_waking: comm=Relay(17547) pid=17959 prio=120 target_cpu=005
+          <idle>-0       [005] dNh..  4211.982919: sched_wakeup: comm=Relay(17547) pid=17959 prio=120 target_cpu=005
+          <idle>-0       [005] d....  4211.982923: sched_switch: prev_comm=swapper/5 prev_pid=0 prev_prio=120 prev_state=R ==> next_comm=Relay(17547) next_pid=17959 next_prio=120
+    Relay(17547)-17959   [005] d....  4211.982937: sched_waking: comm=kworker/u32:1 pid=19010 prio=120 target_cpu=011
+    Relay(17547)-17959   [005] d....  4211.982939: sched_waking: comm=sudo pid=18071 prio=120 target_cpu=002
+    Relay(17547)-17959   [005] d....  4211.982945: sched_switch: prev_comm=Relay(17547) prev_pid=17959 prev_prio=120 prev_state=S ==> next_comm=swapper/5 next_pid=0 next_prio=120
+          <idle>-0       [002] dNh..  4211.982973: sched_wakeup: comm=sudo pid=18071 prio=120 target_cpu=002
+          <idle>-0       [002] d....  4211.982976: sched_switch: prev_comm=swapper/2 prev_pid=0 prev_prio=120 prev_state=R ==> next_comm=sudo next_pid=18071 next_prio=120
+            sudo-18071   [002] d....  4211.982979: sched_switch: prev_comm=sudo prev_pid=18071 prev_prio=120 prev_state=S ==> next_comm=swapper/2 next_pid=0 next_prio=120
+          <idle>-0       [011] dNh..  4211.982989: sched_wakeup: comm=kworker/u32:1 pid=19010 prio=120 target_cpu=011
+          <idle>-0       [011] d....  4211.982992: sched_switch: prev_comm=swapper/11 prev_pid=0 prev_prio=120 prev_state=R ==> next_comm=kworker/u32:1 next_pid=19010 next_prio=120
+   kworker/u32:1-19010   [011] d....  4211.982996: sched_switch: prev_comm=kworker/u32:1 prev_pid=19010 prev_prio=120 prev_state=I ==> next_comm=swapper/11 next_pid=0 next_prio=120
+          <idle>-0       [000] d.s..  4211.983862: sched_waking: comm=Relay(17547) pid=17959 prio=120 target_cpu=005
+          <idle>-0       [005] dNh..  4211.983871: sched_wakeup: comm=Relay(17547) pid=17959 prio=120 target_cpu=005
+          <idle>-0       [005] d....  4211.983875: sched_switch: prev_comm=swapper/5 prev_pid=0 prev_prio=120 prev_state=R ==> next_comm=Relay(17547) next_pid=17959 next_prio=120
+    Relay(17547)-17959   [005] d....  4211.983888: sched_waking: comm=kworker/u32:1 pid=19010 prio=120 target_cpu=011
+    Relay(17547)-17959   [005] d....  4211.983905: sched_waking: comm=sudo pid=18071 prio=120 target_cpu=002
+          <idle>-0       [011] dNh..  4211.983908: sched_wakeup: comm=kworker/u32:1 pid=19010 prio=120 target_cpu=011
+    Relay(17547)-17959   [005] d....  4211.983909: sched_switch: prev_comm=Relay(17547) prev_pid=17959 prev_prio=120 prev_state=S ==> next_comm=swapper/5 next_pid=0 next_prio=120
+          <idle>-0       [011] d....  4211.983911: sched_switch: prev_comm=swapper/11 prev_pid=0 prev_prio=120 prev_state=R ==> next_comm=kworker/u32:1 next_pid=19010 next_prio=120
+   kworker/u32:1-19010   [011] d....  4211.983914: sched_switch: prev_comm=kworker/u32:1 prev_pid=19010 prev_prio=120 prev_state=I ==> next_comm=swapper/11 next_pid=0 next_prio=120
+          <idle>-0       [002] dNh..  4211.983928: sched_wakeup: comm=sudo pid=18071 prio=120 target_cpu=002
+          <idle>-0       [002] d....  4211.983929: sched_switch: prev_comm=swapper/2 prev_pid=0 prev_prio=120 prev_state=R ==> next_comm=sudo next_pid=18071 next_prio=120
+            sudo-18071   [002] d....  4211.983938: sched_waking: comm=kworker/u32:1 pid=19010 prio=120 target_cpu=011
+          <idle>-0       [011] dNh..  4211.983960: sched_wakeup: comm=kworker/u32:1 pid=19010 prio=120 target_cpu=011
+          <idle>-0       [011] d....  4211.983962: sched_switch: prev_comm=swapper/11 prev_pid=0 prev_prio=120 prev_state=R ==> next_comm=kworker/u32:1 next_pid=19010 next_prio=120
+   kworker/u32:1-19010   [011] d....  4211.983964: sched_switch: prev_comm=kworker/u32:1 prev_pid=19010 prev_prio=120 prev_state=I ==> next_comm=swapper/11 next_pid=0 next_prio=120
+            sudo-18071   [002] d....  4211.983968: sched_waking: comm=kworker/u32:1 pid=19010 prio=120 target_cpu=011
+            sudo-18071   [002] d....  4211.983980: sched_waking: comm=cat pid=19509 prio=120 target_cpu=004
+          <idle>-0       [011] dNh..  4211.983988: sched_wakeup: comm=kworker/u32:1 pid=19010 prio=120 target_cpu=011
+          <idle>-0       [011] d....  4211.983991: sched_switch: prev_comm=swapper/11 prev_pid=0 prev_prio=120 prev_state=R ==> next_comm=kworker/u32:1 next_pid=19010 next_prio=120
+          <idle>-0       [004] dNh..  4211.983994: sched_wakeup: comm=cat pid=19509 prio=120 target_cpu=004
+   kworker/u32:1-19010   [011] d....  4211.983996: sched_switch: prev_comm=kworker/u32:1 prev_pid=19010 prev_prio=120 prev_state=I ==> next_comm=swapper/11 next_pid=0 next_prio=120
+            sudo-18071   [002] d....  4211.983998: sched_waking: comm=kworker/u32:1 pid=19010 prio=120 target_cpu=011
+          <idle>-0       [004] d....  4211.983999: sched_switch: prev_comm=swapper/4 prev_pid=0 prev_prio=120 prev_state=R ==> next_comm=cat next_pid=19509 next_prio=120
+          <idle>-0       [011] dNh..  4211.984003: sched_wakeup: comm=kworker/u32:1 pid=19010 prio=120 target_cpu=011
+          <idle>-0       [011] d....  4211.984005: sched_switch: prev_comm=swapper/11 prev_pid=0 prev_prio=120 prev_state=R ==> next_comm=kworker/u32:1 next_pid=19010 next_prio=120
+   kworker/u32:1-19010   [011] d....  4211.984005: sched_waking: comm=kworker/u32:0 pid=18639 prio=120 target_cpu=006
+   kworker/u32:1-19010   [011] d....  4211.984015: sched_switch: prev_comm=kworker/u32:1 prev_pid=19010 prev_prio=120 prev_state=I ==> next_comm=swapper/11 next_pid=0 next_prio=120
+            sudo-18071   [002] d....  4211.984020: sched_waking: comm=kworker/u32:1 pid=19010 prio=120 target_cpu=011
+          <idle>-0       [006] dNh..  4211.984037: sched_wakeup: comm=kworker/u32:0 pid=18639 prio=120 target_cpu=006
+            sudo-18071   [002] d....  4211.984040: sched_switch: prev_comm=sudo prev_pid=18071 prev_prio=120 prev_state=D ==> next_comm=swapper/2 next_pid=0 next_prio=120
+          <idle>-0       [006] d....  4211.984041: sched_switch: prev_comm=swapper/6 prev_pid=0 prev_prio=120 prev_state=R ==> next_comm=kworker/u32:0 next_pid=18639 next_prio=120
+          <idle>-0       [011] dNh..  4211.984042: sched_wakeup: comm=kworker/u32:1 pid=19010 prio=120 target_cpu=011
+   kworker/u32:0-18639   [006] d....  4211.984043: sched_waking: comm=sudo pid=18071 prio=120 target_cpu=002
+          <idle>-0       [011] d....  4211.984045: sched_switch: prev_comm=swapper/11 prev_pid=0 prev_prio=120 prev_state=R ==> next_comm=kworker/u32:1 next_pid=19010 next_prio=120
+   kworker/u32:1-19010   [011] d....  4211.984047: sched_switch: prev_comm=kworker/u32:1 prev_pid=19010 prev_prio=120 prev_state=I ==> next_comm=swapper/11 next_pid=0 next_prio=120
+   kworker/u32:0-18639   [006] d....  4211.984062: sched_switch: prev_comm=kworker/u32:0 prev_pid=18639 prev_prio=120 prev_state=I ==> next_comm=swapper/6 next_pid=0 next_prio=120
+          <idle>-0       [002] dNh..  4211.984070: sched_wakeup: comm=sudo pid=18071 prio=120 target_cpu=002
+          <idle>-0       [002] d....  4211.984072: sched_switch: prev_comm=swapper/2 prev_pid=0 prev_prio=120 prev_state=R ==> next_comm=sudo next_pid=18071 next_prio=120
+            sudo-18071   [002] d....  4211.984073: sched_switch: prev_comm=sudo prev_pid=18071 prev_prio=120 prev_state=S ==> next_comm=swapper/2 next_pid=0 next_prio=120
+             cat-19509   [004] d....  4211.984111: sched_waking: comm=kworker/u32:0 pid=18639 prio=120 target_cpu=006
+          <idle>-0       [006] dNh..  4211.984142: sched_wakeup: comm=kworker/u32:0 pid=18639 prio=120 target_cpu=006
+          <idle>-0       [006] d....  4211.984146: sched_switch: prev_comm=swapper/6 prev_pid=0 prev_prio=120 prev_state=R ==> next_comm=kworker/u32:0 next_pid=18639 next_prio=120
+   kworker/u32:0-18639   [006] d....  4211.984149: sched_waking: comm=sudo pid=18071 prio=120 target_cpu=002
+   kworker/u32:0-18639   [006] d....  4211.984168: sched_switch: prev_comm=kworker/u32:0 prev_pid=18639 prev_prio=120 prev_state=I ==> next_comm=swapper/6 next_pid=0 next_prio=120
+          <idle>-0       [002] dNh..  4211.984170: sched_wakeup: comm=sudo pid=18071 prio=120 target_cpu=002
+          <idle>-0       [002] d....  4211.984172: sched_switch: prev_comm=swapper/2 prev_pid=0 prev_prio=120 prev_state=R ==> next_comm=sudo next_pid=18071 next_prio=120
+            sudo-18071   [002] d....  4211.984183: sched_switch: prev_comm=sudo prev_pid=18071 prev_prio=120 prev_state=S ==> next_comm=swapper/2 next_pid=0 next_prio=120
+             cat-19509   [004] d....  4211.984204: sched_waking: comm=kworker/u32:0 pid=18639 prio=120 target_cpu=006
+          <idle>-0       [006] dNh..  4211.984244: sched_wakeup: comm=kworker/u32:0 pid=18639 prio=120 target_cpu=006
+          <idle>-0       [006] d....  4211.984247: sched_switch: prev_comm=swapper/6 prev_pid=0 prev_prio=120 prev_state=R ==> next_comm=kworker/u32:0 next_pid=18639 next_prio=120
+   kworker/u32:0-18639   [006] d....  4211.984249: sched_waking: comm=sudo pid=18071 prio=120 target_cpu=002
+          <idle>-0       [002] dNh..  4211.984269: sched_wakeup: comm=sudo pid=18071 prio=120 target_cpu=002
+   kworker/u32:0-18639   [006] d....  4211.984269: sched_switch: prev_comm=kworker/u32:0 prev_pid=18639 prev_prio=120 prev_state=I ==> next_comm=swapper/6 next_pid=0 next_prio=120
+          <idle>-0       [002] d....  4211.984271: sched_switch: prev_comm=swapper/2 prev_pid=0 prev_prio=120 prev_state=R ==> next_comm=sudo next_pid=18071 next_prio=120
+            sudo-18071   [002] d....  4211.984280: sched_switch: prev_comm=sudo prev_pid=18071 prev_prio=120 prev_state=S ==> next_comm=swapper/2 next_pid=0 next_prio=120
+             cat-19509   [004] d....  4211.984302: sched_waking: comm=kworker/u32:0 pid=18639 prio=120 target_cpu=006
+          <idle>-0       [006] dNh..  4211.984343: sched_wakeup: comm=kworker/u32:0 pid=18639 prio=120 target_cpu=006
+          <idle>-0       [006] d....  4211.984346: sched_switch: prev_comm=swapper/6 prev_pid=0 prev_prio=120 prev_state=R ==> next_comm=kworker/u32:0 next_pid=18639 next_prio=120
+   kworker/u32:0-18639   [006] d....  4211.984347: sched_waking: comm=sudo pid=18071 prio=120 target_cpu=002
+   kworker/u32:0-18639   [006] d....  4211.984368: sched_switch: prev_comm=kworker/u32:0 prev_pid=18639 prev_prio=120 prev_state=I ==> next_comm=swapper/6 next_pid=0 next_prio=120
+          <idle>-0       [002] dNh..  4211.984368: sched_wakeup: comm=sudo pid=18071 prio=120 target_cpu=002
+          <idle>-0       [002] d....  4211.984370: sched_switch: prev_comm=swapper/2 prev_pid=0 prev_prio=120 prev_state=R ==> next_comm=sudo next_pid=18071 next_prio=120
+            sudo-18071   [002] d....  4211.984380: sched_switch: prev_comm=sudo prev_pid=18071 prev_prio=120 prev_state=S ==> next_comm=swapper/2 next_pid=0 next_prio=120
+             cat-19509   [004] d....  4211.984398: sched_waking: comm=kworker/u32:0 pid=18639 prio=120 target_cpu=006
+          <idle>-0       [006] dNh..  4211.984416: sched_wakeup: comm=kworker/u32:0 pid=18639 prio=120 target_cpu=006
+          <idle>-0       [006] d....  4211.984419: sched_switch: prev_comm=swapper/6 prev_pid=0 prev_prio=120 prev_state=R ==> next_comm=kworker/u32:0 next_pid=18639 next_prio=120
+             cat-19509   [004] d....  4211.984420: sched_waking: comm=kworker/u32:1 pid=19010 prio=120 target_cpu=011
+   kworker/u32:0-18639   [006] d....  4211.984420: sched_waking: comm=sudo pid=18071 prio=120 target_cpu=002
+             cat-19509   [004] d....  4211.984422: sched_waking: comm=kworker/u32:0 pid=18639 prio=120 target_cpu=006
+   kworker/u32:0-18639   [006] d....  4211.984422: sched_switch: prev_comm=kworker/u32:0 prev_pid=18639 prev_prio=120 prev_state=R ==> next_comm=swapper/6 next_pid=0 next_prio=120
+          <idle>-0       [006] dNh..  4211.984425: sched_wakeup: comm=kworker/u32:0 pid=18639 prio=120 target_cpu=006
+          <idle>-0       [006] d....  4211.984427: sched_switch: prev_comm=swapper/6 prev_pid=0 prev_prio=120 prev_state=R ==> next_comm=kworker/u32:0 next_pid=18639 next_prio=120
+   kworker/u32:0-18639   [006] d....  4211.984428: sched_switch: prev_comm=kworker/u32:0 prev_pid=18639 prev_prio=120 prev_state=I ==> next_comm=swapper/6 next_pid=0 next_prio=120
+             cat-19509   [004] d....  4211.984429: sched_waking: comm=kworker/u32:0 pid=18639 prio=120 target_cpu=006
+          <idle>-0       [006] dN...  4211.984431: sched_wakeup: comm=kworker/u32:0 pid=18639 prio=120 target_cpu=006
+          <idle>-0       [006] d....  4211.984431: sched_switch: prev_comm=swapper/6 prev_pid=0 prev_prio=120 prev_state=R ==> next_comm=kworker/u32:0 next_pid=18639 next_prio=120
+             cat-19509   [004] d....  4211.984433: sched_waking: comm=kworker/u32:0 pid=18639 prio=120 target_cpu=006
+   kworker/u32:0-18639   [006] d....  4211.984433: sched_switch: prev_comm=kworker/u32:0 prev_pid=18639 prev_prio=120 prev_state=R ==> next_comm=swapper/6 next_pid=0 next_prio=120
+          <idle>-0       [006] dNh..  4211.984438: sched_wakeup: comm=kworker/u32:0 pid=18639 prio=120 target_cpu=006
+          <idle>-0       [006] d....  4211.984440: sched_switch: prev_comm=swapper/6 prev_pid=0 prev_prio=120 prev_state=R ==> next_comm=kworker/u32:0 next_pid=18639 next_prio=120
+   kworker/u32:0-18639   [006] d....  4211.984443: sched_switch: prev_comm=kworker/u32:0 prev_pid=18639 prev_prio=120 prev_state=I ==> next_comm=swapper/6 next_pid=0 next_prio=120
+          <idle>-0       [002] dNh..  4211.984443: sched_wakeup: comm=sudo pid=18071 prio=120 target_cpu=002
+          <idle>-0       [002] d....  4211.984446: sched_switch: prev_comm=swapper/2 prev_pid=0 prev_prio=120 prev_state=R ==> next_comm=sudo next_pid=18071 next_prio=120
+          <idle>-0       [011] dNh..  4211.984450: sched_wakeup: comm=kworker/u32:1 pid=19010 prio=120 target_cpu=011
+          <idle>-0       [011] d....  4211.984454: sched_switch: prev_comm=swapper/11 prev_pid=0 prev_prio=120 prev_state=R ==> next_comm=kworker/u32:1 next_pid=19010 next_prio=120
+   kworker/u32:1-19010   [011] d....  4211.984457: sched_switch: prev_comm=kworker/u32:1 prev_pid=19010 prev_prio=120 prev_state=I ==> next_comm=swapper/11 next_pid=0 next_prio=120
+            sudo-18071   [002] d....  4211.984464: sched_switch: prev_comm=sudo prev_pid=18071 prev_prio=120 prev_state=S ==> next_comm=swapper/2 next_pid=0 next_prio=120
+             cat-19509   [004] d....  4211.984534: sched_waking: comm=kworker/u32:1 pid=19010 prio=120 target_cpu=011
+          <idle>-0       [011] dNh..  4211.984561: sched_wakeup: comm=kworker/u32:1 pid=19010 prio=120 target_cpu=011
+          <idle>-0       [011] d....  4211.984564: sched_switch: prev_comm=swapper/11 prev_pid=0 prev_prio=120 prev_state=R ==> next_comm=kworker/u32:1 next_pid=19010 next_prio=120
+   kworker/u32:1-19010   [011] d....  4211.984566: sched_waking: comm=sudo pid=18071 prio=120 target_cpu=002
+   kworker/u32:1-19010   [011] d....  4211.984588: sched_switch: prev_comm=kworker/u32:1 prev_pid=19010 prev_prio=120 prev_state=I ==> next_comm=swapper/11 next_pid=0 next_prio=120
+          <idle>-0       [002] dNh..  4211.984591: sched_wakeup: comm=sudo pid=18071 prio=120 target_cpu=002
+          <idle>-0       [002] d....  4211.984594: sched_switch: prev_comm=swapper/2 prev_pid=0 prev_prio=120 prev_state=R ==> next_comm=sudo next_pid=18071 next_prio=120
+            sudo-18071   [002] d....  4211.984612: sched_switch: prev_comm=sudo prev_pid=18071 prev_prio=120 prev_state=S ==> next_comm=swapper/2 next_pid=0 next_prio=120
+             cat-19509   [004] d....  4211.984627: sched_waking: comm=kworker/u32:1 pid=19010 prio=120 target_cpu=011
+          <idle>-0       [011] dNh..  4211.984663: sched_wakeup: comm=kworker/u32:1 pid=19010 prio=120 target_cpu=011
+          <idle>-0       [011] d....  4211.984666: sched_switch: prev_comm=swapper/11 prev_pid=0 prev_prio=120 prev_state=R ==> next_comm=kworker/u32:1 next_pid=19010 next_prio=120
+   kworker/u32:1-19010   [011] d....  4211.984671: sched_waking: comm=sudo pid=18071 prio=120 target_cpu=002
+   kworker/u32:1-19010   [011] d....  4211.984675: sched_switch: prev_comm=kworker/u32:1 prev_pid=19010 prev_prio=120 prev_state=I ==> next_comm=swapper/11 next_pid=0 next_prio=120
+          <idle>-0       [002] dNh..  4211.984698: sched_wakeup: comm=sudo pid=18071 prio=120 target_cpu=002
+          <idle>-0       [002] d....  4211.984701: sched_switch: prev_comm=swapper/2 prev_pid=0 prev_prio=120 prev_state=R ==> next_comm=sudo next_pid=18071 next_prio=120
+             cat-19509   [004] d....  4211.984717: sched_waking: comm=kworker/u32:1 pid=19010 prio=120 target_cpu=011
+            sudo-18071   [002] d....  4211.984717: sched_switch: prev_comm=sudo prev_pid=18071 prev_prio=120 prev_state=S ==> next_comm=swapper/2 next_pid=0 next_prio=120
+          <idle>-0       [011] dNh..  4211.984735: sched_wakeup: comm=kworker/u32:1 pid=19010 prio=120 target_cpu=011
+          <idle>-0       [011] d....  4211.984737: sched_switch: prev_comm=swapper/11 prev_pid=0 prev_prio=120 prev_state=R ==> next_comm=kworker/u32:1 next_pid=19010 next_prio=120
+             cat-19509   [004] d....  4211.984738: sched_waking: comm=kworker/u32:0 pid=18639 prio=120 target_cpu=006
+   kworker/u32:1-19010   [011] d....  4211.984739: sched_waking: comm=sudo pid=18071 prio=120 target_cpu=002
+   kworker/u32:1-19010   [011] d....  4211.984740: sched_switch: prev_comm=kworker/u32:1 prev_pid=19010 prev_prio=120 prev_state=I ==> next_comm=swapper/11 next_pid=0 next_prio=120
+             cat-19509   [004] d....  4211.984741: sched_waking: comm=kworker/u32:1 pid=19010 prio=120 target_cpu=011
+          <idle>-0       [011] dN...  4211.984743: sched_wakeup: comm=kworker/u32:1 pid=19010 prio=120 target_cpu=011
+          <idle>-0       [011] d....  4211.984744: sched_switch: prev_comm=swapper/11 prev_pid=0 prev_prio=120 prev_state=R ==> next_comm=kworker/u32:1 next_pid=19010 next_prio=120
+             cat-19509   [004] d....  4211.984745: sched_waking: comm=kworker/u32:1 pid=19010 prio=120 target_cpu=011
+   kworker/u32:1-19010   [011] d....  4211.984745: sched_switch: prev_comm=kworker/u32:1 prev_pid=19010 prev_prio=120 prev_state=R ==> next_comm=swapper/11 next_pid=0 next_prio=120
+          <idle>-0       [011] dNh..  4211.984749: sched_wakeup: comm=kworker/u32:1 pid=19010 prio=120 target_cpu=011
+          <idle>-0       [011] d....  4211.984751: sched_switch: prev_comm=swapper/11 prev_pid=0 prev_prio=120 prev_state=R ==> next_comm=kworker/u32:1 next_pid=19010 next_prio=120
+             cat-19509   [004] d....  4211.984753: sched_waking: comm=kworker/u32:1 pid=19010 prio=120 target_cpu=011
+   kworker/u32:1-19010   [011] d....  4211.984754: sched_switch: prev_comm=kworker/u32:1 prev_pid=19010 prev_prio=120 prev_state=R ==> next_comm=swapper/11 next_pid=0 next_prio=120
+          <idle>-0       [002] dNh..  4211.984755: sched_wakeup: comm=sudo pid=18071 prio=120 target_cpu=002
+          <idle>-0       [002] d....  4211.984758: sched_switch: prev_comm=swapper/2 prev_pid=0 prev_prio=120 prev_state=R ==> next_comm=sudo next_pid=18071 next_prio=120
+          <idle>-0       [011] dNh..  4211.984759: sched_wakeup: comm=kworker/u32:1 pid=19010 prio=120 target_cpu=011
+          <idle>-0       [011] d....  4211.984761: sched_switch: prev_comm=swapper/11 prev_pid=0 prev_prio=120 prev_state=R ==> next_comm=kworker/u32:1 next_pid=19010 next_prio=120
+   kworker/u32:1-19010   [011] d....  4211.984762: sched_switch: prev_comm=kworker/u32:1 prev_pid=19010 prev_prio=120 prev_state=I ==> next_comm=swapper/11 next_pid=0 next_prio=120
+          <idle>-0       [006] dNh..  4211.984763: sched_wakeup: comm=kworker/u32:0 pid=18639 prio=120 target_cpu=006
+          <idle>-0       [006] d....  4211.984765: sched_switch: prev_comm=swapper/6 prev_pid=0 prev_prio=120 prev_state=R ==> next_comm=kworker/u32:0 next_pid=18639 next_prio=120
+   kworker/u32:0-18639   [006] d....  4211.984767: sched_switch: prev_comm=kworker/u32:0 prev_pid=18639 prev_prio=120 prev_state=I ==> next_comm=swapper/6 next_pid=0 next_prio=120
+            sudo-18071   [002] d....  4211.984777: sched_switch: prev_comm=sudo prev_pid=18071 prev_prio=120 prev_state=S ==> next_comm=swapper/2 next_pid=0 next_prio=120
+             cat-19509   [004] d....  4211.984830: sched_waking: comm=kworker/u32:0 pid=18639 prio=120 target_cpu=006
+          <idle>-0       [006] dNh..  4211.984870: sched_wakeup: comm=kworker/u32:0 pid=18639 prio=120 target_cpu=006
+          <idle>-0       [006] d....  4211.984873: sched_switch: prev_comm=swapper/6 prev_pid=0 prev_prio=120 prev_state=R ==> next_comm=kworker/u32:0 next_pid=18639 next_prio=120
+   kworker/u32:0-18639   [006] d....  4211.984876: sched_waking: comm=sudo pid=18071 prio=120 target_cpu=002
+          <idle>-0       [014] d.h..  4211.984880: sched_waking: comm=Xwayland pid=681 prio=120 target_cpu=014
+          <idle>-0       [014] dNh..  4211.984882: sched_wakeup: comm=Xwayland pid=681 prio=120 target_cpu=014
+          <idle>-0       [014] d....  4211.984886: sched_switch: prev_comm=swapper/14 prev_pid=0 prev_prio=120 prev_state=R ==> next_comm=Xwayland next_pid=681 next_prio=120
+          <idle>-0       [002] dNh..  4211.984898: sched_wakeup: comm=sudo pid=18071 prio=120 target_cpu=002
+   kworker/u32:0-18639   [006] d....  4211.984898: sched_switch: prev_comm=kworker/u32:0 prev_pid=18639 prev_prio=120 prev_state=I ==> next_comm=swapper/6 next_pid=0 next_prio=120
+          <idle>-0       [002] d....  4211.984900: sched_switch: prev_comm=swapper/2 prev_pid=0 prev_prio=120 prev_state=R ==> next_comm=sudo next_pid=18071 next_prio=120
+        Xwayland-681     [014] d....  4211.984903: sched_switch: prev_comm=Xwayland prev_pid=681 prev_prio=120 prev_state=S ==> next_comm=swapper/14 next_pid=0 next_prio=120
+            sudo-18071   [002] d....  4211.984913: sched_switch: prev_comm=sudo prev_pid=18071 prev_prio=120 prev_state=S ==> next_comm=swapper/2 next_pid=0 next_prio=120
+          <idle>-0       [000] d.s..  4211.984915: sched_waking: comm=Relay(17547) pid=17959 prio=120 target_cpu=005
+          <idle>-0       [005] dNh..  4211.984922: sched_wakeup: comm=Relay(17547) pid=17959 prio=120 target_cpu=005
+             cat-19509   [004] d....  4211.984925: sched_waking: comm=kworker/u32:0 pid=18639 prio=120 target_cpu=006
+          <idle>-0       [005] d....  4211.984925: sched_switch: prev_comm=swapper/5 prev_pid=0 prev_prio=120 prev_state=R ==> next_comm=Relay(17547) next_pid=17959 next_prio=120
+    Relay(17547)-17959   [005] d....  4211.984941: sched_waking: comm=sudo pid=18071 prio=120 target_cpu=002
+          <idle>-0       [006] dNh..  4211.984942: sched_wakeup: comm=kworker/u32:0 pid=18639 prio=120 target_cpu=006
+    Relay(17547)-17959   [005] d....  4211.984943: sched_switch: prev_comm=Relay(17547) prev_pid=17959 prev_prio=120 prev_state=S ==> next_comm=swapper/5 next_pid=0 next_prio=120
+          <idle>-0       [006] d....  4211.984945: sched_switch: prev_comm=swapper/6 prev_pid=0 prev_prio=120 prev_state=R ==> next_comm=kworker/u32:0 next_pid=18639 next_prio=120
+   kworker/u32:0-18639   [006] d....  4211.984946: sched_waking: comm=kworker/u32:1 pid=19010 prio=120 target_cpu=011
+   kworker/u32:0-18639   [006] d....  4211.984950: sched_switch: prev_comm=kworker/u32:0 prev_pid=18639 prev_prio=120 prev_state=I ==> next_comm=swapper/6 next_pid=0 next_prio=120
+             cat-19509   [004] d....  4211.984950: sched_waking: comm=kworker/u32:0 pid=18639 prio=120 target_cpu=006
+          <idle>-0       [006] dN...  4211.984953: sched_wakeup: comm=kworker/u32:0 pid=18639 prio=120 target_cpu=006
+          <idle>-0       [006] d....  4211.984953: sched_switch: prev_comm=swapper/6 prev_pid=0 prev_prio=120 prev_state=R ==> next_comm=kworker/u32:0 next_pid=18639 next_prio=120
+   kworker/u32:0-18639   [006] d....  4211.984954: sched_switch: prev_comm=kworker/u32:0 prev_pid=18639 prev_prio=120 prev_state=I ==> next_comm=swapper/6 next_pid=0 next_prio=120
+             cat-19509   [004] d....  4211.984955: sched_waking: comm=kworker/u32:0 pid=18639 prio=120 target_cpu=006
+          <idle>-0       [006] dN...  4211.984957: sched_wakeup: comm=kworker/u32:0 pid=18639 prio=120 target_cpu=006
+          <idle>-0       [006] d....  4211.984957: sched_switch: prev_comm=swapper/6 prev_pid=0 prev_prio=120 prev_state=R ==> next_comm=kworker/u32:0 next_pid=18639 next_prio=120
+   kworker/u32:0-18639   [006] d....  4211.984957: sched_switch: prev_comm=kworker/u32:0 prev_pid=18639 prev_prio=120 prev_state=I ==> next_comm=swapper/6 next_pid=0 next_prio=120
+          <idle>-0       [002] dNh..  4211.984965: sched_wakeup: comm=sudo pid=18071 prio=120 target_cpu=002
+          <idle>-0       [002] d....  4211.984967: sched_switch: prev_comm=swapper/2 prev_pid=0 prev_prio=120 prev_state=R ==> next_comm=sudo next_pid=18071 next_prio=120
+            sudo-18071   [002] d....  4211.984973: sched_waking: comm=kworker/u32:0 pid=18639 prio=120 target_cpu=006
+          <idle>-0       [011] dNh..  4211.984975: sched_wakeup: comm=kworker/u32:1 pid=19010 prio=120 target_cpu=011
+          <idle>-0       [011] d....  4211.984979: sched_switch: prev_comm=swapper/11 prev_pid=0 prev_prio=120 prev_state=R ==> next_comm=kworker/u32:1 next_pid=19010 next_prio=120
+            sudo-18071   [002] d....  4211.984993: sched_waking: comm=kworker/u32:1 pid=19010 prio=120 target_cpu=011
+   kworker/u32:1-19010   [011] d....  4211.984993: sched_switch: prev_comm=kworker/u32:1 prev_pid=19010 prev_prio=120 prev_state=R ==> next_comm=swapper/11 next_pid=0 next_prio=120
+          <idle>-0       [006] dNh..  4211.984995: sched_wakeup: comm=kworker/u32:0 pid=18639 prio=120 target_cpu=006
+          <idle>-0       [006] d....  4211.984997: sched_switch: prev_comm=swapper/6 prev_pid=0 prev_prio=120 prev_state=R ==> next_comm=kworker/u32:0 next_pid=18639 next_prio=120
+   kworker/u32:0-18639   [006] d....  4211.984998: sched_switch: prev_comm=kworker/u32:0 prev_pid=18639 prev_prio=120 prev_state=I ==> next_comm=swapper/6 next_pid=0 next_prio=120
+          <idle>-0       [011] dNh..  4211.984998: sched_wakeup: comm=kworker/u32:1 pid=19010 prio=120 target_cpu=011
+          <idle>-0       [011] d....  4211.984999: sched_switch: prev_comm=swapper/11 prev_pid=0 prev_prio=120 prev_state=R ==> next_comm=kworker/u32:1 next_pid=19010 next_prio=120
+   kworker/u32:1-19010   [011] d....  4211.985000: sched_switch: prev_comm=kworker/u32:1 prev_pid=19010 prev_prio=120 prev_state=I ==> next_comm=swapper/11 next_pid=0 next_prio=120
+            sudo-18071   [002] d....  4211.985005: sched_switch: prev_comm=sudo prev_pid=18071 prev_prio=120 prev_state=S ==> next_comm=swapper/2 next_pid=0 next_prio=120
+             cat-19509   [004] d....  4211.985029: sched_waking: comm=kworker/u32:1 pid=19010 prio=120 target_cpu=011
+          <idle>-0       [011] dNh..  4211.985075: sched_wakeup: comm=kworker/u32:1 pid=19010 prio=120 target_cpu=011
+          <idle>-0       [011] d....  4211.985078: sched_switch: prev_comm=swapper/11 prev_pid=0 prev_prio=120 prev_state=R ==> next_comm=kworker/u32:1 next_pid=19010 next_prio=120
+   kworker/u32:1-19010   [011] d....  4211.985080: sched_waking: comm=sudo pid=18071 prio=120 target_cpu=002
+   kworker/u32:1-19010   [011] d....  4211.985099: sched_switch: prev_comm=kworker/u32:1 prev_pid=19010 prev_prio=120 prev_state=I ==> next_comm=swapper/11 next_pid=0 next_prio=120
+          <idle>-0       [002] dNh..  4211.985100: sched_wakeup: comm=sudo pid=18071 prio=120 target_cpu=002
+          <idle>-0       [002] d....  4211.985102: sched_switch: prev_comm=swapper/2 prev_pid=0 prev_prio=120 prev_state=R ==> next_comm=sudo next_pid=18071 next_prio=120
+            sudo-18071   [002] d....  4211.985114: sched_switch: prev_comm=sudo prev_pid=18071 prev_prio=120 prev_state=S ==> next_comm=swapper/2 next_pid=0 next_prio=120
+             cat-19509   [004] d....  4211.985124: sched_waking: comm=kworker/u32:1 pid=19010 prio=120 target_cpu=011
+          <idle>-0       [011] dNh..  4211.985139: sched_wakeup: comm=kworker/u32:1 pid=19010 prio=120 target_cpu=011
+          <idle>-0       [011] d....  4211.985140: sched_switch: prev_comm=swapper/11 prev_pid=0 prev_prio=120 prev_state=R ==> next_comm=kworker/u32:1 next_pid=19010 next_prio=120
+   kworker/u32:1-19010   [011] d....  4211.985142: sched_waking: comm=sudo pid=18071 prio=120 target_cpu=002
+             cat-19509   [004] d....  4211.985142: sched_waking: comm=kworker/u32:0 pid=18639 prio=120 target_cpu=006
+             cat-19509   [004] d....  4211.985143: sched_waking: comm=kworker/u32:1 pid=19010 prio=120 target_cpu=011
+   kworker/u32:1-19010   [011] d....  4211.985143: sched_switch: prev_comm=kworker/u32:1 prev_pid=19010 prev_prio=120 prev_state=R ==> next_comm=swapper/11 next_pid=0 next_prio=120
+          <idle>-0       [011] dNh..  4211.985146: sched_wakeup: comm=kworker/u32:1 pid=19010 prio=120 target_cpu=011
+          <idle>-0       [011] d....  4211.985148: sched_switch: prev_comm=swapper/11 prev_pid=0 prev_prio=120 prev_state=R ==> next_comm=kworker/u32:1 next_pid=19010 next_prio=120
+   kworker/u32:1-19010   [011] d....  4211.985149: sched_switch: prev_comm=kworker/u32:1 prev_pid=19010 prev_prio=120 prev_state=I ==> next_comm=swapper/11 next_pid=0 next_prio=120
+             cat-19509   [004] d....  4211.985149: sched_waking: comm=kworker/u32:1 pid=19010 prio=120 target_cpu=011
+          <idle>-0       [011] dN...  4211.985151: sched_wakeup: comm=kworker/u32:1 pid=19010 prio=120 target_cpu=011
+          <idle>-0       [011] d....  4211.985151: sched_switch: prev_comm=swapper/11 prev_pid=0 prev_prio=120 prev_state=R ==> next_comm=kworker/u32:1 next_pid=19010 next_prio=120
+   kworker/u32:1-19010   [011] d....  4211.985152: sched_switch: prev_comm=kworker/u32:1 prev_pid=19010 prev_prio=120 prev_state=I ==> next_comm=swapper/11 next_pid=0 next_prio=120
+             cat-19509   [004] d....  4211.985152: sched_waking: comm=kworker/u32:1 pid=19010 prio=120 target_cpu=011
+          <idle>-0       [011] dN...  4211.985154: sched_wakeup: comm=kworker/u32:1 pid=19010 prio=120 target_cpu=011
+          <idle>-0       [011] d....  4211.985154: sched_switch: prev_comm=swapper/11 prev_pid=0 prev_prio=120 prev_state=R ==> next_comm=kworker/u32:1 next_pid=19010 next_prio=120
+   kworker/u32:1-19010   [011] d....  4211.985156: sched_switch: prev_comm=kworker/u32:1 prev_pid=19010 prev_prio=120 prev_state=I ==> next_comm=swapper/11 next_pid=0 next_prio=120
+             cat-19509   [004] d....  4211.985156: sched_waking: comm=kworker/u32:1 pid=19010 prio=120 target_cpu=011
+          <idle>-0       [011] dN...  4211.985158: sched_wakeup: comm=kworker/u32:1 pid=19010 prio=120 target_cpu=011
+          <idle>-0       [011] d....  4211.985158: sched_switch: prev_comm=swapper/11 prev_pid=0 prev_prio=120 prev_state=R ==> next_comm=kworker/u32:1 next_pid=19010 next_prio=120
+   kworker/u32:1-19010   [011] d....  4211.985159: sched_switch: prev_comm=kworker/u32:1 prev_pid=19010 prev_prio=120 prev_state=I ==> next_comm=swapper/11 next_pid=0 next_prio=120
+          <idle>-0       [002] dNh..  4211.985166: sched_wakeup: comm=sudo pid=18071 prio=120 target_cpu=002
+          <idle>-0       [002] d....  4211.985168: sched_switch: prev_comm=swapper/2 prev_pid=0 prev_prio=120 prev_state=R ==> next_comm=sudo next_pid=18071 next_prio=120
+          <idle>-0       [006] dNh..  4211.985176: sched_wakeup: comm=kworker/u32:0 pid=18639 prio=120 target_cpu=006
+          <idle>-0       [006] d....  4211.985179: sched_switch: prev_comm=swapper/6 prev_pid=0 prev_prio=120 prev_state=R ==> next_comm=kworker/u32:0 next_pid=18639 next_prio=120
+   kworker/u32:0-18639   [006] d....  4211.985180: sched_switch: prev_comm=kworker/u32:0 prev_pid=18639 prev_prio=120 prev_state=I ==> next_comm=swapper/6 next_pid=0 next_prio=120
+            sudo-18071   [002] d....  4211.985182: sched_waking: comm=kworker/u32:0 pid=18639 prio=120 target_cpu=006
+            sudo-18071   [002] d....  4211.985191: sched_switch: prev_comm=sudo prev_pid=18071 prev_prio=120 prev_state=D ==> next_comm=swapper/2 next_pid=0 next_prio=120
+          <idle>-0       [006] dNh..  4211.985221: sched_wakeup: comm=kworker/u32:0 pid=18639 prio=120 target_cpu=006
+          <idle>-0       [006] d....  4211.985224: sched_switch: prev_comm=swapper/6 prev_pid=0 prev_prio=120 prev_state=R ==> next_comm=kworker/u32:0 next_pid=18639 next_prio=120
+   kworker/u32:0-18639   [006] d....  4211.985226: sched_waking: comm=sudo pid=18071 prio=120 target_cpu=002
+             cat-19509   [004] d....  4211.985233: sched_waking: comm=kworker/u32:1 pid=19010 prio=120 target_cpu=011
+          <idle>-0       [002] dNh..  4211.985244: sched_wakeup: comm=sudo pid=18071 prio=120 target_cpu=002
+          <idle>-0       [002] d....  4211.985246: sched_switch: prev_comm=swapper/2 prev_pid=0 prev_prio=120 prev_state=R ==> next_comm=sudo next_pid=18071 next_prio=120
+             cat-19509   [004] d....  4211.985248: sched_waking: comm=kworker/u32:0 pid=18639 prio=120 target_cpu=006
+   kworker/u32:0-18639   [006] d....  4211.985248: sched_switch: prev_comm=kworker/u32:0 prev_pid=18639 prev_prio=120 prev_state=R ==> next_comm=swapper/6 next_pid=0 next_prio=120
+          <idle>-0       [006] dNh..  4211.985253: sched_wakeup: comm=kworker/u32:0 pid=18639 prio=120 target_cpu=006
+          <idle>-0       [006] d....  4211.985254: sched_switch: prev_comm=swapper/6 prev_pid=0 prev_prio=120 prev_state=R ==> next_comm=kworker/u32:0 next_pid=18639 next_prio=120
+   kworker/u32:0-18639   [006] d....  4211.985255: sched_waking: comm=sudo pid=18071 prio=120 target_cpu=002
+            sudo-18071   [002] d....  4211.985256: sched_switch: prev_comm=sudo prev_pid=18071 prev_prio=120 prev_state=R ==> next_comm=swapper/2 next_pid=0 next_prio=120
+   kworker/u32:0-18639   [006] d....  4211.985257: sched_switch: prev_comm=kworker/u32:0 prev_pid=18639 prev_prio=120 prev_state=I ==> next_comm=swapper/6 next_pid=0 next_prio=120
+          <idle>-0       [002] dNh..  4211.985259: sched_wakeup: comm=sudo pid=18071 prio=120 target_cpu=002
+          <idle>-0       [002] d....  4211.985260: sched_switch: prev_comm=swapper/2 prev_pid=0 prev_prio=120 prev_state=R ==> next_comm=sudo next_pid=18071 next_prio=120
+            sudo-18071   [002] d....  4211.985264: sched_switch: prev_comm=sudo prev_pid=18071 prev_prio=120 prev_state=S ==> next_comm=swapper/2 next_pid=0 next_prio=120
+          <idle>-0       [011] dNh..  4211.985278: sched_wakeup: comm=kworker/u32:1 pid=19010 prio=120 target_cpu=011
+          <idle>-0       [011] d....  4211.985281: sched_switch: prev_comm=swapper/11 prev_pid=0 prev_prio=120 prev_state=R ==> next_comm=kworker/u32:1 next_pid=19010 next_prio=120
+   kworker/u32:1-19010   [011] d....  4211.985283: sched_switch: prev_comm=kworker/u32:1 prev_pid=19010 prev_prio=120 prev_state=I ==> next_comm=swapper/11 next_pid=0 next_prio=120
+             cat-19509   [004] d....  4211.985328: sched_waking: comm=kworker/u32:1 pid=19010 prio=120 target_cpu=011
+          <idle>-0       [011] dNh..  4211.985345: sched_wakeup: comm=kworker/u32:1 pid=19010 prio=120 target_cpu=011
+          <idle>-0       [011] d....  4211.985347: sched_switch: prev_comm=swapper/11 prev_pid=0 prev_prio=120 prev_state=R ==> next_comm=kworker/u32:1 next_pid=19010 next_prio=120
+             cat-19509   [004] d....  4211.985348: sched_waking: comm=kworker/u32:0 pid=18639 prio=120 target_cpu=006
+   kworker/u32:1-19010   [011] d....  4211.985348: sched_waking: comm=sudo pid=18071 prio=120 target_cpu=002
+   kworker/u32:1-19010   [011] d....  4211.985349: sched_switch: prev_comm=kworker/u32:1 prev_pid=19010 prev_prio=120 prev_state=I ==> next_comm=swapper/11 next_pid=0 next_prio=120
+             cat-19509   [004] d....  4211.985349: sched_waking: comm=kworker/u32:1 pid=19010 prio=120 target_cpu=011
+          <idle>-0       [011] dN...  4211.985352: sched_wakeup: comm=kworker/u32:1 pid=19010 prio=120 target_cpu=011
+          <idle>-0       [011] d....  4211.985352: sched_switch: prev_comm=swapper/11 prev_pid=0 prev_prio=120 prev_state=R ==> next_comm=kworker/u32:1 next_pid=19010 next_prio=120
+   kworker/u32:1-19010   [011] d....  4211.985353: sched_switch: prev_comm=kworker/u32:1 prev_pid=19010 prev_prio=120 prev_state=I ==> next_comm=swapper/11 next_pid=0 next_prio=120
+             cat-19509   [004] d....  4211.985354: sched_waking: comm=kworker/u32:1 pid=19010 prio=120 target_cpu=011
+          <idle>-0       [011] dN...  4211.985355: sched_wakeup: comm=kworker/u32:1 pid=19010 prio=120 target_cpu=011
+          <idle>-0       [011] d....  4211.985355: sched_switch: prev_comm=swapper/11 prev_pid=0 prev_prio=120 prev_state=R ==> next_comm=kworker/u32:1 next_pid=19010 next_prio=120
+   kworker/u32:1-19010   [011] d....  4211.985357: sched_switch: prev_comm=kworker/u32:1 prev_pid=19010 prev_prio=120 prev_state=I ==> next_comm=swapper/11 next_pid=0 next_prio=120
+             cat-19509   [004] d....  4211.985357: sched_waking: comm=kworker/u32:1 pid=19010 prio=120 target_cpu=011
+          <idle>-0       [011] dN...  4211.985359: sched_wakeup: comm=kworker/u32:1 pid=19010 prio=120 target_cpu=011
+          <idle>-0       [011] d....  4211.985359: sched_switch: prev_comm=swapper/11 prev_pid=0 prev_prio=120 prev_state=R ==> next_comm=kworker/u32:1 next_pid=19010 next_prio=120
+   kworker/u32:1-19010   [011] d....  4211.985360: sched_switch: prev_comm=kworker/u32:1 prev_pid=19010 prev_prio=120 prev_state=I ==> next_comm=swapper/11 next_pid=0 next_prio=120
+             cat-19509   [004] d....  4211.985360: sched_waking: comm=kworker/u32:1 pid=19010 prio=120 target_cpu=011
+          <idle>-0       [011] dN...  4211.985362: sched_wakeup: comm=kworker/u32:1 pid=19010 prio=120 target_cpu=011
+          <idle>-0       [011] d....  4211.985362: sched_switch: prev_comm=swapper/11 prev_pid=0 prev_prio=120 prev_state=R ==> next_comm=kworker/u32:1 next_pid=19010 next_prio=120
+   kworker/u32:1-19010   [011] d....  4211.985363: sched_switch: prev_comm=kworker/u32:1 prev_pid=19010 prev_prio=120 prev_state=I ==> next_comm=swapper/11 next_pid=0 next_prio=120
+             cat-19509   [004] d....  4211.985364: sched_waking: comm=kworker/u32:1 pid=19010 prio=120 target_cpu=011
+          <idle>-0       [011] dN...  4211.985366: sched_wakeup: comm=kworker/u32:1 pid=19010 prio=120 target_cpu=011
+          <idle>-0       [011] d....  4211.985366: sched_switch: prev_comm=swapper/11 prev_pid=0 prev_prio=120 prev_state=R ==> next_comm=kworker/u32:1 next_pid=19010 next_prio=120
+          <idle>-0       [002] dNh..  4211.985366: sched_wakeup: comm=sudo pid=18071 prio=120 target_cpu=002
+   kworker/u32:1-19010   [011] d....  4211.985367: sched_switch: prev_comm=kworker/u32:1 prev_pid=19010 prev_prio=120 prev_state=I ==> next_comm=swapper/11 next_pid=0 next_prio=120
+          <idle>-0       [002] d....  4211.985368: sched_switch: prev_comm=swapper/2 prev_pid=0 prev_prio=120 prev_state=R ==> next_comm=sudo next_pid=18071 next_prio=120
+          <idle>-0       [006] dNh..  4211.985375: sched_wakeup: comm=kworker/u32:0 pid=18639 prio=120 target_cpu=006
+          <idle>-0       [006] d....  4211.985378: sched_switch: prev_comm=swapper/6 prev_pid=0 prev_prio=120 prev_state=R ==> next_comm=kworker/u32:0 next_pid=18639 next_prio=120
+   kworker/u32:0-18639   [006] d....  4211.985380: sched_switch: prev_comm=kworker/u32:0 prev_pid=18639 prev_prio=120 prev_state=I ==> next_comm=swapper/6 next_pid=0 next_prio=120
+            sudo-18071   [002] d....  4211.985382: sched_switch: prev_comm=sudo prev_pid=18071 prev_prio=120 prev_state=S ==> next_comm=swapper/2 next_pid=0 next_prio=120
+             cat-19509   [004] d....  4211.985440: sched_waking: comm=kworker/u32:0 pid=18639 prio=120 target_cpu=006
+          <idle>-0       [006] dNh..  4211.985479: sched_wakeup: comm=kworker/u32:0 pid=18639 prio=120 target_cpu=006
+          <idle>-0       [006] d....  4211.985482: sched_switch: prev_comm=swapper/6 prev_pid=0 prev_prio=120 prev_state=R ==> next_comm=kworker/u32:0 next_pid=18639 next_prio=120
+   kworker/u32:0-18639   [006] d....  4211.985486: sched_switch: prev_comm=kworker/u32:0 prev_pid=18639 prev_prio=120 prev_state=I ==> next_comm=swapper/6 next_pid=0 next_prio=120
+             cat-19509   [004] d....  4211.985532: sched_waking: comm=kworker/u32:0 pid=18639 prio=120 target_cpu=006
+          <idle>-0       [006] dNh..  4211.985536: sched_wakeup: comm=kworker/u32:0 pid=18639 prio=120 target_cpu=006
+          <idle>-0       [006] d....  4211.985538: sched_switch: prev_comm=swapper/6 prev_pid=0 prev_prio=120 prev_state=R ==> next_comm=kworker/u32:0 next_pid=18639 next_prio=120
+             cat-19509   [004] d....  4211.985540: sched_waking: comm=kworker/u32:1 pid=19010 prio=120 target_cpu=011
+             cat-19509   [004] d....  4211.985541: sched_waking: comm=kworker/u32:0 pid=18639 prio=120 target_cpu=006
+   kworker/u32:0-18639   [006] d....  4211.985541: sched_switch: prev_comm=kworker/u32:0 prev_pid=18639 prev_prio=120 prev_state=R ==> next_comm=swapper/6 next_pid=0 next_prio=120
+          <idle>-0       [011] dNh..  4211.985542: sched_wakeup: comm=kworker/u32:1 pid=19010 prio=120 target_cpu=011
+          <idle>-0       [011] d....  4211.985546: sched_switch: prev_comm=swapper/11 prev_pid=0 prev_prio=120 prev_state=R ==> next_comm=kworker/u32:1 next_pid=19010 next_prio=120
+             cat-19509   [004] d....  4211.985547: sched_waking: comm=kworker/u32:1 pid=19010 prio=120 target_cpu=011
+          <idle>-0       [006] dNh..  4211.985547: sched_wakeup: comm=kworker/u32:0 pid=18639 prio=120 target_cpu=006
+   kworker/u32:1-19010   [011] d....  4211.985547: sched_switch: prev_comm=kworker/u32:1 prev_pid=19010 prev_prio=120 prev_state=R ==> next_comm=swapper/11 next_pid=0 next_prio=120
+          <idle>-0       [006] d....  4211.985549: sched_switch: prev_comm=swapper/6 prev_pid=0 prev_prio=120 prev_state=R ==> next_comm=kworker/u32:0 next_pid=18639 next_prio=120
+          <idle>-0       [011] dNh..  4211.985551: sched_wakeup: comm=kworker/u32:1 pid=19010 prio=120 target_cpu=011
+             cat-19509   [004] d....  4211.985552: sched_waking: comm=kworker/u32:0 pid=18639 prio=120 target_cpu=006
+   kworker/u32:0-18639   [006] d....  4211.985552: sched_switch: prev_comm=kworker/u32:0 prev_pid=18639 prev_prio=120 prev_state=I ==> next_comm=swapper/6 next_pid=0 next_prio=120
+          <idle>-0       [011] d....  4211.985553: sched_switch: prev_comm=swapper/11 prev_pid=0 prev_prio=120 prev_state=R ==> next_comm=kworker/u32:1 next_pid=19010 next_prio=120
+   kworker/u32:1-19010   [011] d....  4211.985555: sched_switch: prev_comm=kworker/u32:1 prev_pid=19010 prev_prio=120 prev_state=I ==> next_comm=swapper/11 next_pid=0 next_prio=120
+             cat-19509   [004] d....  4211.985555: sched_waking: comm=kworker/u32:1 pid=19010 prio=120 target_cpu=011
+          <idle>-0       [006] dNh..  4211.985557: sched_wakeup: comm=kworker/u32:0 pid=18639 prio=120 target_cpu=006
+          <idle>-0       [011] dN...  4211.985557: sched_wakeup: comm=kworker/u32:1 pid=19010 prio=120 target_cpu=011
+          <idle>-0       [011] d....  4211.985557: sched_switch: prev_comm=swapper/11 prev_pid=0 prev_prio=120 prev_state=R ==> next_comm=kworker/u32:1 next_pid=19010 next_prio=120
+   kworker/u32:1-19010   [011] d....  4211.985558: sched_switch: prev_comm=kworker/u32:1 prev_pid=19010 prev_prio=120 prev_state=I ==> next_comm=swapper/11 next_pid=0 next_prio=120
+          <idle>-0       [006] d....  4211.985558: sched_switch: prev_comm=swapper/6 prev_pid=0 prev_prio=120 prev_state=R ==> next_comm=kworker/u32:0 next_pid=18639 next_prio=120
+   kworker/u32:0-18639   [006] d....  4211.985559: sched_switch: prev_comm=kworker/u32:0 prev_pid=18639 prev_prio=120 prev_state=I ==> next_comm=swapper/6 next_pid=0 next_prio=120
+             cat-19509   [004] d....  4211.985637: sched_waking: comm=kworker/u32:0 pid=18639 prio=120 target_cpu=006
+          <idle>-0       [006] dNh..  4211.985653: sched_wakeup: comm=kworker/u32:0 pid=18639 prio=120 target_cpu=006
+          <idle>-0       [006] d....  4211.985655: sched_switch: prev_comm=swapper/6 prev_pid=0 prev_prio=120 prev_state=R ==> next_comm=kworker/u32:0 next_pid=18639 next_prio=120
+             cat-19509   [004] d....  4211.985656: sched_waking: comm=kworker/u32:1 pid=19010 prio=120 target_cpu=011
+   kworker/u32:0-18639   [006] d....  4211.985657: sched_switch: prev_comm=kworker/u32:0 prev_pid=18639 prev_prio=120 prev_state=I ==> next_comm=swapper/6 next_pid=0 next_prio=120
+             cat-19509   [004] d....  4211.985657: sched_waking: comm=kworker/u32:0 pid=18639 prio=120 target_cpu=006
+          <idle>-0       [006] dNh..  4211.985661: sched_wakeup: comm=kworker/u32:0 pid=18639 prio=120 target_cpu=006
+          <idle>-0       [006] d....  4211.985662: sched_switch: prev_comm=swapper/6 prev_pid=0 prev_prio=120 prev_state=R ==> next_comm=kworker/u32:0 next_pid=18639 next_prio=120
+   kworker/u32:0-18639   [006] d....  4211.985663: sched_switch: prev_comm=kworker/u32:0 prev_pid=18639 prev_prio=120 prev_state=I ==> next_comm=swapper/6 next_pid=0 next_prio=120
+             cat-19509   [004] d....  4211.985663: sched_waking: comm=kworker/u32:0 pid=18639 prio=120 target_cpu=006
+          <idle>-0       [006] dN...  4211.985665: sched_wakeup: comm=kworker/u32:0 pid=18639 prio=120 target_cpu=006
+          <idle>-0       [006] d....  4211.985665: sched_switch: prev_comm=swapper/6 prev_pid=0 prev_prio=120 prev_state=R ==> next_comm=kworker/u32:0 next_pid=18639 next_prio=120
+   kworker/u32:0-18639   [006] d....  4211.985666: sched_switch: prev_comm=kworker/u32:0 prev_pid=18639 prev_prio=120 prev_state=I ==> next_comm=swapper/6 next_pid=0 next_prio=120
+             cat-19509   [004] d....  4211.985666: sched_waking: comm=kworker/u32:0 pid=18639 prio=120 target_cpu=006
+          <idle>-0       [006] dN...  4211.985668: sched_wakeup: comm=kworker/u32:0 pid=18639 prio=120 target_cpu=006
+          <idle>-0       [006] d....  4211.985668: sched_switch: prev_comm=swapper/6 prev_pid=0 prev_prio=120 prev_state=R ==> next_comm=kworker/u32:0 next_pid=18639 next_prio=120
+             cat-19509   [004] d....  4211.985669: sched_waking: comm=kworker/u32:0 pid=18639 prio=120 target_cpu=006
+   kworker/u32:0-18639   [006] d....  4211.985669: sched_switch: prev_comm=kworker/u32:0 prev_pid=18639 prev_prio=120 prev_state=I ==> next_comm=swapper/6 next_pid=0 next_prio=120
+          <idle>-0       [006] dNh..  4211.985672: sched_wakeup: comm=kworker/u32:0 pid=18639 prio=120 target_cpu=006
+          <idle>-0       [006] d....  4211.985674: sched_switch: prev_comm=swapper/6 prev_pid=0 prev_prio=120 prev_state=R ==> next_comm=kworker/u32:0 next_pid=18639 next_prio=120
+   kworker/u32:0-18639   [006] d....  4211.985674: sched_switch: prev_comm=kworker/u32:0 prev_pid=18639 prev_prio=120 prev_state=I ==> next_comm=swapper/6 next_pid=0 next_prio=120
+             cat-19509   [004] d....  4211.985674: sched_waking: comm=kworker/u32:0 pid=18639 prio=120 target_cpu=006
+          <idle>-0       [006] dN...  4211.985676: sched_wakeup: comm=kworker/u32:0 pid=18639 prio=120 target_cpu=006
+          <idle>-0       [006] d....  4211.985676: sched_switch: prev_comm=swapper/6 prev_pid=0 prev_prio=120 prev_state=R ==> next_comm=kworker/u32:0 next_pid=18639 next_prio=120
+             cat-19509   [004] d....  4211.985677: sched_waking: comm=kworker/u32:0 pid=18639 prio=120 target_cpu=006
+   kworker/u32:0-18639   [006] d....  4211.985677: sched_switch: prev_comm=kworker/u32:0 prev_pid=18639 prev_prio=120 prev_state=I ==> next_comm=swapper/6 next_pid=0 next_prio=120
+          <idle>-0       [006] dN...  4211.985679: sched_wakeup: comm=kworker/u32:0 pid=18639 prio=120 target_cpu=006
+          <idle>-0       [006] d....  4211.985679: sched_switch: prev_comm=swapper/6 prev_pid=0 prev_prio=120 prev_state=R ==> next_comm=kworker/u32:0 next_pid=18639 next_prio=120
+   kworker/u32:0-18639   [006] d....  4211.985681: sched_switch: prev_comm=kworker/u32:0 prev_pid=18639 prev_prio=120 prev_state=I ==> next_comm=swapper/6 next_pid=0 next_prio=120
+          <idle>-0       [011] dNh..  4211.985682: sched_wakeup: comm=kworker/u32:1 pid=19010 prio=120 target_cpu=011
+          <idle>-0       [011] d....  4211.985685: sched_switch: prev_comm=swapper/11 prev_pid=0 prev_prio=120 prev_state=R ==> next_comm=kworker/u32:1 next_pid=19010 next_prio=120
+   kworker/u32:1-19010   [011] d....  4211.985686: sched_switch: prev_comm=kworker/u32:1 prev_pid=19010 prev_prio=120 prev_state=I ==> next_comm=swapper/11 next_pid=0 next_prio=120
+             cat-19509   [004] d....  4211.985756: sched_waking: comm=kworker/u32:1 pid=19010 prio=120 target_cpu=011
+          <idle>-0       [011] dNh..  4211.985794: sched_wakeup: comm=kworker/u32:1 pid=19010 prio=120 target_cpu=011
+          <idle>-0       [011] d....  4211.985797: sched_switch: prev_comm=swapper/11 prev_pid=0 prev_prio=120 prev_state=R ==> next_comm=kworker/u32:1 next_pid=19010 next_prio=120
+   kworker/u32:1-19010   [011] d....  4211.985799: sched_switch: prev_comm=kworker/u32:1 prev_pid=19010 prev_prio=120 prev_state=I ==> next_comm=swapper/11 next_pid=0 next_prio=120
+          <idle>-0       [000] d.s..  4211.985834: sched_waking: comm=Relay(17547) pid=17959 prio=120 target_cpu=005
+          <idle>-0       [005] dNh..  4211.985840: sched_wakeup: comm=Relay(17547) pid=17959 prio=120 target_cpu=005
+             cat-19509   [004] d....  4211.985848: sched_waking: comm=kworker/u32:1 pid=19010 prio=120 target_cpu=011
+    Relay(17547)-17959   [005] d....  4211.985852: sched_waking: comm=sudo pid=18071 prio=120 target_cpu=002
+          <idle>-0       [011] dNh..  4211.985853: sched_wakeup: comm=kworker/u32:1 pid=19010 prio=120 target_cpu=011
+   kworker/u32:1-19010   [011] d....  4211.985858: sched_waking: comm=kworker/u32:0 pid=18639 prio=120 target_cpu=006
+          <idle>-0       [002] dNh..  4211.985874: sched_wakeup: comm=sudo pid=18071 prio=120 target_cpu=002
+            sudo-18071   [002] d....  4211.985881: sched_waking: comm=kworker/u32:1 pid=19010 prio=120 target_cpu=011
+          <idle>-0       [006] dNh..  4211.985903: sched_wakeup: comm=kworker/u32:0 pid=18639 prio=120 target_cpu=006
+          <idle>-0       [011] dNh..  4211.985905: sched_wakeup: comm=kworker/u32:1 pid=19010 prio=120 target_cpu=011
+          <idle>-0       [000] d.s..  4211.986821: sched_waking: comm=Relay(17547) pid=17959 prio=120 target_cpu=005
+    Relay(17547)-17959   [005] d....  4211.986848: sched_waking: comm=kworker/u32:1 pid=19010 prio=120 target_cpu=011
+    Relay(17547)-17959   [005] d....  4211.986849: sched_waking: comm=sudo pid=18071 prio=120 target_cpu=002
